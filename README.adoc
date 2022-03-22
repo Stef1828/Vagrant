@@ -30,7 +30,7 @@
   cd vagrant
   mkdir debian11
   cd debian11
-  vagrant init swenr/debian11 --box-version 1.0
+  vagrant init swenr/debian --box-version 1.0
   
 * Read the automatically created *Vagrantfile* and make sure you understand the configuration settings. 
 
