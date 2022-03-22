@@ -110,7 +110,7 @@ image::rsync.PNG[]
  mkdir multimachine
  cd multimachine
 
-** Create a new Vagrant file and define two machines: dev and prod
+** Create a new Vagrant file and define two machines *debian/bullseye64*: dev and prod
 ** Give the two machines the following IP addresses, dev 10.10.10.10 and prod 10.10.10.20.
 
 == Learning Goals
