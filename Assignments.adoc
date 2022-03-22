@@ -97,7 +97,7 @@
 image::rsync.PNG[]
 
 * Create a file KROEPOEK1 in /vagrant on the guest, is it copied to the host?
-* Create a file KROEPOEK2 in the directory containing the Vagrantfile, is it copied to the guest?
+* Create a file KROEPOEK2 in the directory containing the Vagrantfile on the host, is it copied to the guest?
 ** The rsync synced folder does a one-time one-way sync from the host machine to the guest machine being started by Vagrant.
 
 * Read the following https://www.vagrantup.com/docs/multi-machine[documentation on multi-machine in Vagrant]
