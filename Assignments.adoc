@@ -71,6 +71,14 @@
 ** Create a symbolic link (shortcut) from /vagrant/www to /var/www/html on the guest
    
   sudo ln -s /vagrant/www /var/www/html
+  
+** Modify the default virtual host to follow symlinks by adding disable_symlinks off; in the location directive
+    
+    location / {
+		...
+        disable_symlinks off;
+	}
+
 
 ** Surf to 127.0.0.1:8080 on the host, is the default nginx page displayed?
 ** Modify the index-file in the www directory (the synced folder to /vagrant/www on the guest). Verify the modifications by surfing to 127.0.0.1:8080 again.
