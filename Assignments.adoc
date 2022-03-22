@@ -44,7 +44,7 @@
 
 * Press `vagrant -h` and `vagrant -h --debug` on the host machine and read the messages
 
-* The VM vagrant creates is called "debian11", change the hostname of the VM to webserver.
+* The vagrant VM created is called "debian11", change the hostname of the VM to webserver.
 
 * Use the SHELL provisioner to:
 ** update all installed software to the latest version
