@@ -72,11 +72,12 @@
    
   sudo ln -s /vagrant/www /var/www/html
   
-** Modify the default virtual host to follow symlinks by adding disable_symlinks off; in the location directive
+** Modify the nginx.conf config file to follow symlinks by adding disable_symlinks off; in the http directive
     
-    location / {
-		...
+    http {
+	...
         disable_symlinks off;
+	...
 	}
 
 
