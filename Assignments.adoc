@@ -1,5 +1,6 @@
 = Assignments
 
+* Some tasks will not function from the first time. Investigate!
 * By default Vagrant runs virtual machines headless. Modify the Vagrantfile to display the GUI (VirtualBox display) when booting the machine.
 ** Modify the Vagrant file
 ** `vagrant reload`
