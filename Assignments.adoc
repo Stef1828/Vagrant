@@ -33,6 +33,7 @@
 ** Create a new one and verify if the file is there
 ** Read logs ... 
 *** Provisioning is done automatically during the first `vagrant up`, after the first `vagrant up` ... 
+** Run `vagrant reload` and check it the file is still there, if not ... solve it. 
 
 * Log in the VM via `vagrant ssh`
 ** Use the command `id` to identify your identity
