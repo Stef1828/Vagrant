@@ -111,7 +111,7 @@ image::rsync.PNG[]
  cd multimachine
 
 ** Create a new Vagrant file and define two machines: dev and prod
-** Give the twp machines the following IP addresses, dev 10.10.10.10 and prod 10.10.10.20.
+** Give the two machines the following IP addresses, dev 10.10.10.10 and prod 10.10.10.20.
 
 == Learning Goals
 * Know how to create a multinode Vagrant file
