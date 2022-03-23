@@ -55,7 +55,7 @@
   exit
   vagrant halt
   
-* Remove the virtual envoronment
+* Remove the virtual environment
 
   vagrant destroy
 
