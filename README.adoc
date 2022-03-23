@@ -38,7 +38,7 @@
 
   vagrant up
 
-* Use SSH to "Log in" to the virtual environment. The default user and password is "vagrant" and "vagrant".
+* Use SSH to "Log in" to the virtual environment. The default user and password is "vagrant" and "vagrant" or "root" and "vagrant" or ... ; it depends on the creation process.
 
   vagrant ssh
 
